@@ -5,7 +5,7 @@
 <body>
 <script src="/socket.io/socket.io.js"></script>
 <script>
-            var socket = io('https://testsvoice.heroku.com');
+            var socket = io('https://infovserver.herokuapp.com/');
             socket.on('greeting-from-server', function (message) {
                 document.body.appendChild(
                     document.createTextNode(message.greeting)
